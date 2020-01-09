@@ -1,9 +1,9 @@
 ---
 layout: post
-title: template page
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
+title: nlp-test
+categories: [nlp, ml]
+description: test my post
+keywords: nlp
 ---
 
 Content here
