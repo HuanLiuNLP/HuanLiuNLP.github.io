@@ -1,32 +1,29 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: 持续记录，持续积累，持续思考，持续创新
+keywords: Liu Huan, 刘欢
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+TO BE FILLED
 
-仰慕「优雅编码的艺术」。
+[^_^]:
+  ## 联系
 
-坚信熟能生巧，努力改变人生。
+    {% for website in site.data.social %}
+    * {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
+    {% endfor %}
 
-## 联系
+  ## Skill Keywords
 
-{% for website in site.data.social %}
-* {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
-{% endfor %}
-
-## Skill Keywords
-
-{% for category in site.data.skills %}
-### {{ category.name }}
-<div class="btn-inline">
-{% for keyword in category.keywords %}
-<button class="btn btn-outline" type="button">{{ keyword }}</button>
-{% endfor %}
-</div>
-{% endfor %}
+  {% for category in site.data.skills %}
+  ### {{ category.name }}
+  <div class="btn-inline">
+  {% for keyword in category.keywords %}
+  <button class="btn btn-outline" type="button">{{ keyword }}</button>
+  {% endfor %}
+  </div>
+  {% endfor %}
